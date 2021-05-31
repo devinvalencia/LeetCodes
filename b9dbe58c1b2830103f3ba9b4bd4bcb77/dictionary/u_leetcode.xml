@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="LeetCode" max_length="40" name="u_leetcode" sizeclass="0" type="collection">
+        <element label="Original String" max_length="40" name="u_original" type="string"/>
+        <element label="Reversed String" max_length="40" name="u_reversed" read_only="true" type="string"/>
+    </element>
+</database>
