@@ -15,20 +15,17 @@
         return;
     }
 
-
     var str = g_form.getValue('u_original');
-    var chars = str.split('');
     var reversed = [];
+	var x = 0;
 
-    for (var n = chars.length - 1; n >= 0; --n) {
-        reversed.push(chars[n]);
+    for (var n = str.length - 1; n >= 0; --n) {
+		
+        reversed[x] = str[n];
+		x++;
     }
 
     g_form.setValue('u_reversed',reversed);
-	
-	var dialog = new GlideDialogWindow('test_popup');
-	dialog.setTitle('Hello?');
-	dialog.render();
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a8de9001b6830103f3ba9b4bd4bcb16</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Reverse String</sys_name>
         <sys_overrides/>
         <sys_package display_value="LeetCodeAnswers" source="b9dbe58c1b2830103f3ba9b4bd4bcb77">b9dbe58c1b2830103f3ba9b4bd4bcb77</sys_package>
@@ -44,7 +41,7 @@
         <sys_scope display_value="LeetCodeAnswers">b9dbe58c1b2830103f3ba9b4bd4bcb77</sys_scope>
         <sys_update_name>sys_script_client_1a8de9001b6830103f3ba9b4bd4bcb16</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-31 04:55:46</sys_updated_on>
+        <sys_updated_on>2021-05-31 16:26:30</sys_updated_on>
         <table>u_leetcode</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
