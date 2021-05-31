@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-31 03:55:57</sys_created_on>
+        <sys_id>232ce1cc1b2830103f3ba9b4bd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_leetcode.u_leetcode_user</sys_name>
+        <sys_package display_value="LeetCodeAnswers" source="b9dbe58c1b2830103f3ba9b4bd4bcb77">b9dbe58c1b2830103f3ba9b4bd4bcb77</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LeetCodeAnswers">b9dbe58c1b2830103f3ba9b4bd4bcb77</sys_scope>
+        <sys_security_acl display_value="u_leetcode">972ce1cc1b2830103f3ba9b4bd4bcb09</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_232ce1cc1b2830103f3ba9b4bd4bcb0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-31 03:55:57</sys_updated_on>
+        <sys_user_role display_value="u_leetcode_user" name="u_leetcode_user">4b2c298c1b2830103f3ba9b4bd4bcb9d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
